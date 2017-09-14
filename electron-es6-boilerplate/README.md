@@ -1,4 +1,4 @@
-# electron-boilerplate
+# electron-es6-boilerplate
 
 ```
 .
