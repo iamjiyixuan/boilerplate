@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		568F56AE1F6EB81E00236077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 568F56AD1F6EB81E00236077 /* main.m */; };
+		568F56B11F6EB81E00236077 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 568F56B01F6EB81E00236077 /* AppDelegate.m */; };
+		568F56B41F6EB81E00236077 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568F56B31F6EB81E00236077 /* ViewController.m */; };
+		568F56B71F6EB81E00236077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568F56B51F6EB81E00236077 /* Main.storyboard */; };
+		568F56B91F6EB81E00236077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568F56B81F6EB81E00236077 /* Assets.xcassets */; };
+		568F56BC1F6EB81E00236077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568F56BA1F6EB81E00236077 /* LaunchScreen.storyboard */; };
+		E6B8E8F9B92986C5085AB694 /* libPods-ReactNativeBoilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0016A59C84BE71C94744AC97 /* libPods-ReactNativeBoilerplate.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0016A59C84BE71C94744AC97 /* libPods-ReactNativeBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		568F56A91F6EB81E00236077 /* ReactNativeBoilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeBoilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		568F56AD1F6EB81E00236077 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		568F56AF1F6EB81E00236077 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		568F56B01F6EB81E00236077 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		568F56B21F6EB81E00236077 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		568F56B31F6EB81E00236077 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		568F56B61F6EB81E00236077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		568F56B81F6EB81E00236077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		568F56BB1F6EB81E00236077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		568F56BD1F6EB81E00236077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7738E1E3AFEE1B13EFACD209 /* Pods-ReactNativeBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBoilerplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeBoilerplate/Pods-ReactNativeBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
+		F35F4635E2ABA81938864E09 /* Pods-ReactNativeBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBoilerplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeBoilerplate/Pods-ReactNativeBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		568F56A61F6EB81E00236077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B8E8F9B92986C5085AB694 /* libPods-ReactNativeBoilerplate.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		568F56A01F6EB81D00236077 = {
+			isa = PBXGroup;
+			children = (
+				568F56AB1F6EB81E00236077 /* ReactNativeBoilerplate */,
+				568F56AA1F6EB81E00236077 /* Products */,
+				AD67EC8A7DB83D5DE52513A2 /* Pods */,
+				C9D2789459A156BF5083CDAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		568F56AA1F6EB81E00236077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				568F56A91F6EB81E00236077 /* ReactNativeBoilerplate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		568F56AB1F6EB81E00236077 /* ReactNativeBoilerplate */ = {
+			isa = PBXGroup;
+			children = (
+				568F56AF1F6EB81E00236077 /* AppDelegate.h */,
+				568F56B01F6EB81E00236077 /* AppDelegate.m */,
+				568F56B21F6EB81E00236077 /* ViewController.h */,
+				568F56B31F6EB81E00236077 /* ViewController.m */,
+				568F56B51F6EB81E00236077 /* Main.storyboard */,
+				568F56B81F6EB81E00236077 /* Assets.xcassets */,
+				568F56BA1F6EB81E00236077 /* LaunchScreen.storyboard */,
+				568F56BD1F6EB81E00236077 /* Info.plist */,
+				568F56AC1F6EB81E00236077 /* Supporting Files */,
+			);
+			path = ReactNativeBoilerplate;
+			sourceTree = "<group>";
+		};
+		568F56AC1F6EB81E00236077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				568F56AD1F6EB81E00236077 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD67EC8A7DB83D5DE52513A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7738E1E3AFEE1B13EFACD209 /* Pods-ReactNativeBoilerplate.debug.xcconfig */,
+				F35F4635E2ABA81938864E09 /* Pods-ReactNativeBoilerplate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9D2789459A156BF5083CDAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0016A59C84BE71C94744AC97 /* libPods-ReactNativeBoilerplate.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		568F56A81F6EB81E00236077 /* ReactNativeBoilerplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568F56C01F6EB81E00236077 /* Build configuration list for PBXNativeTarget "ReactNativeBoilerplate" */;
+			buildPhases = (
+				D2CA0C37AB0F85D172200221 /* [CP] Check Pods Manifest.lock */,
+				568F56A51F6EB81E00236077 /* Sources */,
+				568F56A61F6EB81E00236077 /* Frameworks */,
+				568F56A71F6EB81E00236077 /* Resources */,
+				65AAEEFB40FC79131650C564 /* [CP] Embed Pods Frameworks */,
+				0584CE952173C4889F7AFE4F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeBoilerplate;
+			productName = ReactNativeBoilerplate;
+			productReference = 568F56A91F6EB81E00236077 /* ReactNativeBoilerplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		568F56A11F6EB81D00236077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = iamjiyixuan;
+				TargetAttributes = {
+					568F56A81F6EB81E00236077 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = E6XA66GGK7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 568F56A41F6EB81D00236077 /* Build configuration list for PBXProject "ReactNativeBoilerplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 568F56A01F6EB81D00236077;
+			productRefGroup = 568F56AA1F6EB81E00236077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				568F56A81F6EB81E00236077 /* ReactNativeBoilerplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		568F56A71F6EB81E00236077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568F56BC1F6EB81E00236077 /* LaunchScreen.storyboard in Resources */,
+				568F56B91F6EB81E00236077 /* Assets.xcassets in Resources */,
+				568F56B71F6EB81E00236077 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0584CE952173C4889F7AFE4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeBoilerplate/Pods-ReactNativeBoilerplate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65AAEEFB40FC79131650C564 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeBoilerplate/Pods-ReactNativeBoilerplate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2CA0C37AB0F85D172200221 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeBoilerplate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		568F56A51F6EB81E00236077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568F56B41F6EB81E00236077 /* ViewController.m in Sources */,
+				568F56B11F6EB81E00236077 /* AppDelegate.m in Sources */,
+				568F56AE1F6EB81E00236077 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		568F56B51F6EB81E00236077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568F56B61F6EB81E00236077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		568F56BA1F6EB81E00236077 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568F56BB1F6EB81E00236077 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		568F56BE1F6EB81E00236077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		568F56BF1F6EB81E00236077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		568F56C11F6EB81E00236077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7738E1E3AFEE1B13EFACD209 /* Pods-ReactNativeBoilerplate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E6XA66GGK7;
+				INFOPLIST_FILE = ReactNativeBoilerplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.iamjiyixuan.ReactNativeBoilerplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		568F56C21F6EB81E00236077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35F4635E2ABA81938864E09 /* Pods-ReactNativeBoilerplate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E6XA66GGK7;
+				INFOPLIST_FILE = ReactNativeBoilerplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.iamjiyixuan.ReactNativeBoilerplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		568F56A41F6EB81D00236077 /* Build configuration list for PBXProject "ReactNativeBoilerplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568F56BE1F6EB81E00236077 /* Debug */,
+				568F56BF1F6EB81E00236077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568F56C01F6EB81E00236077 /* Build configuration list for PBXNativeTarget "ReactNativeBoilerplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568F56C11F6EB81E00236077 /* Debug */,
+				568F56C21F6EB81E00236077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 568F56A11F6EB81D00236077 /* Project object */;
+}
