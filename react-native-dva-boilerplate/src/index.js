@@ -3,7 +3,7 @@ import dva from 'dva';
 import { Router, Route } from 'dva/router';
 import IndexPage from './routes/IndexPage';
 import CountModel from './models/count';
-import ChannelModel from './models/channel';
+import GankModel from './models/gank';
 
 // 1. Initialize
 const app = dva();
@@ -13,7 +13,7 @@ const app = dva();
 
 // 3. Model
 app.model(CountModel);
-app.model(ChannelModel);
+app.model(GankModel);
 
 // 4. Router
 app.router(({ history }) => {

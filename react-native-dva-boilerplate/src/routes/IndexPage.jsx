@@ -21,10 +21,10 @@ function IndexPage(props) {
       }}>-</button>
       {props.count}
       <hr />
-      <h2>频道</h2>
+      <h2>gank.io api</h2>
       <button onClick={() => {
-        props.dispatch({ type: 'channel/getChannelList' });
-      }}>getChannelList</button>
+        props.dispatch({ type: 'gank/getGankData' });
+      }}>api/data/Android/10/1</button>
       <hr />
     </div>
   );

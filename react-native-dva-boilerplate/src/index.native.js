@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, View, Text, Button } from 'react-native';
 import dva, { connect } from 'dva-no-router';
 import CountModel from './models/count';
-import ChannelModel from './models/channel';
+import GankModel from './models/gank';
 //
 const app = dva();
 //
 app.model(CountModel);
-app.model(ChannelModel);
+app.model(GankModel);
 
 //
 const App = connect(({ count }) => ({ count }))((props) => {
@@ -22,7 +22,7 @@ const App = connect(({ count }) => ({ count }))((props) => {
         dispatch({ type: 'count/add' }); 
         }} />
       <Button title='delay_add' onPress={() => { dispatch({ type: 'count/addDelay' }) }}/>
-      <Button title='getChannelList' onPress={() => { dispatch({ type: 'channel/getChannelList' }) }}/>
+      <Button title='gank' onPress={() => { dispatch({ type: 'gank/getGankData' }) }}/>
     </View>
   );
 });

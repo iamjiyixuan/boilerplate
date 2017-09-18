@@ -2,7 +2,7 @@ import * as API from '../services/index';
 
 export default {
 
-  namespace: 'channel',
+  namespace: 'gank',
 
   state: 0,
 
@@ -12,8 +12,8 @@ export default {
   },
 
   effects: {
-    *getChannelList(action, { call, put }) {
-      yield API.getChannelList().then(res => { console.log(res); });
+    *getGankData(action, { call, put }) {
+      yield API.getGankData().then(res => { console.log(res); });
     },
   },
 
