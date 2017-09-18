@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import { AppRegistry, Text } from 'react-native';
+import { AppRegistry, StyleSheet, View, Text } from 'react-native';
 
 export default class HelloWorldApp extends Component {
   render() {
     return (
-      <Text>Hello world!</Text>
+      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'white' }}>
+        <Text>Hello world!</Text>
+      </View>
     );
   }
 }
