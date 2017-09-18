@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, View, Text, Button } from 'react-native';
 import dva, { connect } from 'dva-no-router';
-import Model from './models/index';
-
+import CountModel from './models/count';
+import ChannelModel from './models/channel';
 //
 const app = dva();
 //
-app.model(Model);
+app.model(CountModel);
+app.model(ChannelModel);
 
 //
 const App = connect(({ count }) => ({ count }))((props) => {
@@ -16,8 +17,12 @@ const App = connect(({ count }) => ({ count }))((props) => {
       <Text style={styles.welcome}>
         Count: { count }
       </Text>
-      <Button title='add' onPress={() => { dispatch({ type: 'count/add' }) }} />
+      <Button title='add' onPress={() => { 
+        console.log('onPress add');
+        dispatch({ type: 'count/add' }); 
+        }} />
       <Button title='delay_add' onPress={() => { dispatch({ type: 'count/addDelay' }) }}/>
+      <Button title='getChannelList' onPress={() => { dispatch({ type: 'channel/getChannelList' }) }}/>
     </View>
   );
 });

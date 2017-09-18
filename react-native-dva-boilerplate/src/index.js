@@ -2,7 +2,8 @@ import React from 'react';
 import dva from 'dva';
 import { Router, Route } from 'dva/router';
 import IndexPage from './routes/IndexPage';
-import Model from './models/index';
+import CountModel from './models/count';
+import ChannelModel from './models/channel';
 
 // 1. Initialize
 const app = dva();
@@ -11,15 +12,12 @@ const app = dva();
 // app.use({});
 
 // 3. Model
-app.model(Model);
+app.model(CountModel);
+app.model(ChannelModel);
 
 // 4. Router
 app.router(({ history }) => {
 
-  const routes = [
-    {path: '/', component: IndexPage }
-
-  ];
   return (
     <Router history={history}>
       <Route path="/" component={IndexPage} />

@@ -11,18 +11,20 @@ function IndexPage(props) {
       <hr />
       <h2>计数器</h2>
       <button onClick={() => {
-        console.log('onClick +');
         props.dispatch({ type: 'count/add' });
       }}>+</button>
       <button onClick={() => {
-        console.log('onClick +');
         props.dispatch({ type: 'count/addDelay' });
       }}>*+</button>
       <button onClick={() => {
-        console.log('onClick -');
         props.dispatch({ type: 'count/minus' });
       }}>-</button>
       {props.count}
+      <hr />
+      <h2>频道</h2>
+      <button onClick={() => {
+        props.dispatch({ type: 'channel/getChannelList' });
+      }}>getChannelList</button>
       <hr />
     </div>
   );
