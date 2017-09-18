@@ -15,6 +15,10 @@ function IndexPage(props) {
         props.dispatch({ type: 'count/add' });
       }}>+</button>
       <button onClick={() => {
+        console.log('onClick +');
+        props.dispatch({ type: 'count/addDelay' });
+      }}>*+</button>
+      <button onClick={() => {
         console.log('onClick -');
         props.dispatch({ type: 'count/minus' });
       }}>-</button>

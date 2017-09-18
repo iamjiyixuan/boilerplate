@@ -6,7 +6,6 @@ target 'ReactNativeBoilerplate' do
   # use_frameworks!
 
   # Pods for ReactNativeBoilerplate
-  # Pods for KunLunReactNative
   pod 'React', :path => '../node_modules/react-native', :subspecs => [
   'Core',
   'ART',

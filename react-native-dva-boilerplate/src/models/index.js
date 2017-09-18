@@ -1,3 +1,9 @@
+function delay(timeout) {
+  return new Promise(resolve => {
+    setTimeout(resolve, timeout);
+  });
+}
+
 export default {
   
     namespace: 'count',
@@ -10,8 +16,9 @@ export default {
     },
   
     effects: {
-      *fetch({ payload }, { call, put }) {  // eslint-disable-line
-        yield put({ type: 'save' });
+      *addDelay(action, { call, put }) {
+        yield call(delay, 1000);
+        yield put({ type: 'add' });
       },
     },
   
